@@ -5,7 +5,7 @@ This is the landing page for **Brewex**, a business-focused platform offering so
 ## 🌐 Live Demo
 
 Explore the live version of the Brewex landing page here:  
-👉 [View Live Site](https://your-deployed-url.com)
+👉 [View Live Site](https://brewex-assignment-one.vercel.app/)
 
 This live demo showcases the responsive layout, editable headline functionality, and the interactive timeline section.
 
