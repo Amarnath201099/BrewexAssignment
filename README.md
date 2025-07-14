@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# Brewex Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the landing page for **Brewex**, a business-focused platform offering solutions for Revenue Management, Marketing, and Commercial Functions. The page is designed to be responsive, editable, and visually engaging, with an interactive timeline and editable headings.
 
-## Available Scripts
+## 🌐 Live Demo
 
-In the project directory, you can run:
+Explore the live version of the Brewex landing page here:  
+👉 [View Live Site](https://your-deployed-url.com)
 
-### `npm start`
+This live demo showcases the responsive layout, editable headline functionality, and the interactive timeline section.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Project Structure
 
-### `npm test`
+```bash
+src/
+├── assets/                # Static images and design elements
+│   ├── asset-design.png
+│   └── bg-shape-1.svg
+│
+├── components/            # Reusable components
+│   ├── NavBar/            # Navigation bar component
+│   │   └── index.js
+│   ├── Timeline/          # Horizontal timeline component
+│   │   └── index.js
+│
+├── pages/
+│   └── LandingPage/       # Main landing page
+│       ├── index.js
+│       └── index.css
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ✅ Editable Headline
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Edit the main headline using a popup editor.
+- Use `***your text***` to highlight parts of the heading in yellow.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ✅ Responsive Design
 
-### `npm run eject`
+- Optimized for desktop and mobile devices using media queries.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### ✅ Interactive Timeline
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- A horizontal timeline showing different stages of the Brewex solution.
+- Icons and descriptions for each step.
+- Highlighting of completed steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### ✅ Visual Assets
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Integrated design assets (SVGs, PNGs) to create a polished look and feel.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠️ Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React** – UI framework
+- **React Icons** – For scalable vector icons
+- **CSS Modules** – Component-specific styling
+- **Responsive Web Design** – Media queries for mobile support
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧑‍💻 Getting Started
 
-### Analyzing the Bundle Size
+### 1. Clone the Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+````bash
+git clone https://github.com/Amarnath201099/BrewexAssignment.git
+cd BrewexAssignment```
+````
 
-### Making a Progressive Web App
+### 2. Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm install
+```
 
-### Advanced Configuration
+### 3. Run the App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm start
+```
 
-### Deployment
+The app will start in development mode at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🔧 Feature Improvements (Planned / Suggested)
 
-### `npm run build` fails to minify
+### 🗄️ Backend Integration for Editable Heading
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Connect the heading editor to a backend API using Node.js, Express, or similar.
+- Store and retrieve the editable heading from a **database** (MongoDB, PostgreSQL, etc.).
+- Add functionality to:
+  - **Fetch heading** on page load.
+  - **Save edited heading** to the database.
+  - **Handle errors** and fallback if the backend is unreachable.
+- Secure the edit functionality via authentication for admin-only access (optional).
+
+### 📊 Admin Dashboard (Future Scope)
+
+- Admin UI for managing multiple headings and content blocks.
+- View edit history or logs of changes.
+- Option to reset to default content.
+
+---
+
+## 🙏 Thanks
+
+Thank you for reviewing this project!
+
+This landing page was built as part of the **Brewex assignment** to demonstrate frontend skills, component reuse, styling, and future-ready architecture.
+
+Feel free to suggest improvements or contribute ideas!
